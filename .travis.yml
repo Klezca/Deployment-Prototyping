@@ -14,3 +14,7 @@ deploy:
   bucket: "aws-js-deploy-test"
   skip_cleanup: true
   acl: public_read
+  region: ap-southeast-2
+  on:
+    repo: Klezca/js-dev-en
+    branch: master
