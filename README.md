@@ -16,6 +16,7 @@ This repository contains the code for the web app front end written in React usi
 
 ## Contributing
 
+
 ## Deployment
 
 Continuous integration and deployment are provided through [Travis CI](https://travis-ci.org/). This happens automatically through the [.travis.yml](.travis.yml) file.
