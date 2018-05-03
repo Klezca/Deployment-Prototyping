@@ -24,5 +24,11 @@ Travis currently runs tests, compiles down to optimised JS, and sends these to a
 
 [Gitflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow) branching model is used in this project. And only two branches (master and develop) are deployed. If a push was made in the develop branch, only the develop branch is built and deployed; This statement can also be said about the master branch. The branch will not deploy if it does not build, so check `npm run build` locally and fix any errors before merging a hotfix or feature branch to develop or master.
 
-Website for the master branch can be found [here](shifra.io)
-Website for the master branch can be found [here](http://shifra-frontend-develop.s3-website-ap-southeast-2.amazonaws.com)
+Websites for both the develop and the master branch can be viewed in link provided in the table below.
+
+| Master        | Develop       |
+| ------------- |:-------------:|
+| [Website Link][urlMaster]      | [Website Link][urlDevelop] |
+
+[urlMaster]: shifra.io
+[urlDevelop]:http://shifra-frontend-develop.s3-website-ap-southeast-2.amazonaws.com
