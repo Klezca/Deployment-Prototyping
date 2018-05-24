@@ -31,4 +31,4 @@ Websites for both the master branch and the develop branch can be viewed in link
 | [Website Link][urlMaster]      | [Website Link][urlDevelop] |
 
 [urlMaster]: http://shifra.io/
-[urlDevelop]:http://shifra-frontend-develop.s3-website-ap-southeast-2.amazonaws.com
+[urlDevelop]: develop.shifra.io
