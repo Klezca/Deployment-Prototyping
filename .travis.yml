@@ -11,6 +11,7 @@ deploy:
   - provider: s3
     access_key_id: $AWS_ACCESS_KEY
     secret_access_key: $AWS_SECRET_KEY
+    edge: true
     bucket: "develop.nich19302.com"
     endpoint: "s3-website-us-west-2.amazonaws.com"
     local_dir: build
