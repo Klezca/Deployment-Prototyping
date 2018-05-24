@@ -9,9 +9,9 @@ script:
   - CI="" npm run build
 deploy:
   - provider: s3
+    edge: true
     access_key_id: $AWS_ACCESS_KEY
     secret_access_key: $AWS_SECRET_KEY
-    edge: true
     bucket: "develop.nich19302.com"
     endpoint: "s3-website-ap-southeast-2.amazonaws.com"
     local_dir: build
