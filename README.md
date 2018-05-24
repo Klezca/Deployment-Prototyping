@@ -30,5 +30,5 @@ Websites for both the master branch and the develop branch can be viewed in link
 | -------------                  |:-------------:             |
 | [Website Link][urlMaster]      | [Website Link][urlDevelop] |
 
-[urlMaster]: http://shifra.io/
-[urlDevelop]: develop.shifra.io
+[urlMaster]: https://shifra.io/
+[urlDevelop]: http://develop.shifra.io
